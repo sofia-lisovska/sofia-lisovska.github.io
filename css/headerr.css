@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Akzidenz-Grotesk Pro Super';
+    src: url('../fonts/AkzidenzGroteskPro-Super.eot');
+    src: url('../fonts//AkzidenzGroteskPro-Super.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AkzidenzGroteskPro-Super.woff') format('woff'),
+        url('../fonts/AkzidenzGroteskPro-Super.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akzidenz-Grotesk Pro Light';
+    src: url('../fonts/AkzidenzGroteskPro-Light.eot');
+    src: url('../fonts//AkzidenzGroteskPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AkzidenzGroteskPro-Light.woff') format('woff'),
+        url('../fonts/AkzidenzGroteskPro-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akzidenz-Grotesk Pro Bold';
+    src: url('../fonts/AkzidenzGroteskPro-Bold.eot');
+    src: url('../fonts/AkzidenzGroteskPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AkzidenzGroteskPro-Bold.woff') format('woff'),
+        url('../fonts/AkzidenzGroteskPro-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akzidenz-Grotesk Pro Regular';
+    src: url('../fonts/AkzidenzGroteskPro-Regular.eot');
+    src: url('../fonts/AkzidenzGroteskPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AkzidenzGroteskPro-Regular.woff') format('woff'),
+        url('../fonts/AkzidenzGroteskPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo_header {
+    background-size: cover;
+    color: #000;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    min-height: 100vh;
+}
+
+#headertop{
+	padding-left: 1vh;
+	padding-right: 1vh;
+}
+
+#lasthead{
+
+}
+
+#fader {
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-blend-mode: darken;
+}
+
+.logo_header .row {
+    background-size: cover;
+    min-height: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#inter {
+    font-size: 8rem;
+    color: #fff;
+    line-height: 1;
+    font-family: 'Akzidenz-Grotesk Pro Super';
+}
+
+#typst {
+    font-size: 2.26rem;
+    color: #fff;
+    align-self: flex-end;
+    text-align-last: right;
+    line-height: 0.6;
+    font-family: 'Akzidenz-Grotesk Pro Super';
+}
+
+.navbar-nav {
+    font-family: 'Akzidenz-Grotesk Pro Bold';
+    font-size: 1rem;
+    color: #fff;
+    text-align: left;
+}
+
+.TU {
+    font-family: 'Akzidenz-Grotesk Pro Light';
+    line-height: 2.5rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+   
+}

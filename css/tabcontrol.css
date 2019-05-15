@@ -1,0 +1,16 @@
+.content-box { overflow: hidden; }
+.wrap { width: 1200px; max-width: 100%; padding: 0 20px; margin: 0 auto; box-sizing: border-box; }
+
+.content-sub img { width: 100%; }
+.tab-content .content-box { display: none; }
+.tab-content .content-box.active { display: block; }
+@media screen and ( max-width: 768px ) {
+  .content-main { width: 100%; }
+  .content-sub { width: 100%; }
+}
+
+
+.tab-content{
+    width: 100%;
+}
+

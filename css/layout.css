@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'Akzidenz-Grotesk Pro Ext XBold';
+    src: url('../fonts/AkzidenzGroteskPro-BoldEx.eot');
+    src: url('../fonts/AkzidenzGroteskPro-BoldEx.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AkzidenzGroteskPro-BoldEx.woff') format('woff'),
+        url('../fonts/AkzidenzGroteskPro-BoldEx.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akzidenz-Grotesk Pro Ext Light';
+    src: url('../fonts/AkzidenzGroteskPro-LightEx.eot');
+    src: url('../fonts/AkzidenzGroteskPro-LightEx.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AkzidenzGroteskPro-LightEx.woff') format('woff'),
+        url('../fonts/AkzidenzGroteskPro-LightEx.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akzidenz-Grotesk Pro Super';
+    src: url('../fonts/AkzidenzGroteskPro-Super.eot');
+    src: url('../fonts//AkzidenzGroteskPro-Super.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AkzidenzGroteskPro-Super.woff') format('woff'),
+        url('../fonts/AkzidenzGroteskPro-Super.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akzidenz-Grotesk Pro Bold';
+    src: url('../fonts/AkzidenzGroteskPro-Bold.eot');
+    src: url('../fonts/AkzidenzGroteskPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AkzidenzGroteskPro-Bold.woff') format('woff'),
+        url('../fonts/AkzidenzGroteskPro-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akzidenz-Grotesk Pro Regular';
+    src: url('../fonts/AkzidenzGroteskPro-Regular.eot');
+    src: url('../fonts/AkzidenzGroteskPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AkzidenzGroteskPro-Regular.woff') format('woff'),
+        url('../fonts/AkzidenzGroteskPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akzidenz-Grotesk Pro Ext Regular';
+    src: url('../fonts/AkzidenzGroteskPro-Ext.eot');
+    src: url('../fonts//AkzidenzGroteskPro-Ext.eot?#iefix') format('embedded-opentype'),
+        url(../fonts/'AkzidenzGroteskPro-Ext.woff') format('woff'),
+        url('../fonts/AkzidenzGroteskPro-Ext.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+
+}
+
+.container,
+.navbar {
+    padding-left: ;
+    padding-right: ;
+
+}
+
+.FB {
+    align-content: center;
+    min-height: inherit;
+}
+
+h3 {
+    font-family: 'Akzidenz-Grotesk Pro Ext Light';
+}
+
+li {
+    display: block;
+}
+
+.hist {
+    font-family: 'Akzidenz-Grotesk Pro Ext Light';
+    font-size: 1.3rem;
+    line-height: 1rem;
+    letter-spacing: 0.05rem;
+    color: #E3C205;
+}
+
+.years {
+    font-family: 'Akzidenz-Grotesk Pro Ext XBold';
+    font-size: 1.3rem;
+    letter-spacing: 0.06rem;
+    align-content: flex-start;
+    margin-left: -0.3rem;
+
+}
+
+.histtext {
+    font-family: 'Akzidenz-Grotesk Pro Regular';
+       font-size: 0.9rem;
+    line-height: 1.72 ;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+}
+
+#text1 {
+    font-family: 'Akzidenz-Grotesk Pro Regular';
+    font-size: 1rem;
+}
+
+.gallery1 {
+    vertical-align: baseline;
+    align-content: flex-end;
+}
+
+#spysok1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    align-content: space-between;
+    font-family: 'Akzidenz-Grotesk Pro Ext XBold';
+    font-size: 1rem;
+    align-items: flex-start;
+}
+
+#ahofmanimg {
+    align-content: flex-start;
+    vertical-align: top;
+    width: 110vh;
+    height: 50vh;
+}
+
+/*
+.princheader {
+    padding-top: 2rem;
+    font-family: 'Akzidenz-Grotesk Pro Ext XBold';
+    font-size: 2rem;
+    align-content: flex-start;
+    margin-left: -0.3rem;
+}
+*/
+
+.princheader {
+font-family: 'Akzidenz-Grotesk Pro Ext XBold';
+    padding-top: 0.8rem;
+    font-size: 1.1rem;
+    align-content: flex-start;
+    letter-spacing: 0.08rem;
+
+}
+
+.princanimate {
+    transition: all 1.4s;
+    animation-delay: all 0.15s;
+    animation-duration: all 1.25s;
+}
+
+
+.princmain{
+    font-family: 'Akzidenz-Grotesk Pro Ext Light';
+    font-size: 1.3rem;
+    line-height: 1rem;
+    color: #E3C205;
+    
+    
+}
+/* Плавні зміни властивостей лінків */
+a {
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+/*************************************/
+/* Зміни CSS коду розпочинати звідси */
+/*************************************/
+
+section {
+    min-height: 100vh;
+    /* !!! Тимчасово для відладки !!! Висота секцій рівна висоті екрану */
+    padding: 50px 0;
+    /* Внітрішні відступи зверху та знизу у секціях <section> */
+}
+
+#s1 {}
+
+#ahofman {}
+
+a {
+    color: #fff;
+    /* Колір текстових лінків */
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    color: #E3C205;
+    /* Колір текстових лінків для псевдокласів */
+}
+
+
+/**************************************/
+/* Зміна властивостей для breakpoints */
+/**************************************/
+
+@media screen and (max-width:575px) {
+
+    .container,
+    .navbar {
+        padding-left: 15px;
+        /* Для Small додати відступи */
+        padding-right: 15px;
+        /* зліва та справа у .container та .navbar */
+    }
+
+    /* Приклад зміни відступів зверху, знизу для секцій на Small екранах */
+
+    section {
+        padding: 25px 0;
+    }
+
+}
+
+@media screen and (max-width:767px) {}

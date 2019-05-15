@@ -1,0 +1,72 @@
+.tab-container ul li {
+    width: auto;
+    height: auto;
+    margin-right: 1rem;
+        line-height: 1.7;
+}
+
+.tab-container ul li.active .main {
+    position: absolute;
+    bottom: 0;
+    left:15px;
+}
+
+.main {
+    visibility:hidden;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+.main.active {
+    visibility:visible;
+    opacity: 1;
+    height: auto;
+    width: auto;
+    transition: all 1.4s;
+    animation-delay: all 0.15s;
+    animation-duration: all 1.25s;
+}
+.personal {
+    font-family: 'Akzidenz-Grotesk Pro Ext Light';
+    font-size: 1.3rem;
+    letter-spacing: 0.07rem;
+    margin-bottom: 2rem;
+    color: #E3C205;
+  
+}
+.names{
+    font-family: 'Akzidenz-Grotesk Pro Ext Light';
+    font-size: 1rem;
+    letter-spacing: 0.07rem;
+/*    line-height: 3rem;*/
+    text-align: left;
+}
+
+.active .names{
+    font-family: 'Akzidenz-Grotesk Pro Ext XBold';
+     color: #E3C205;
+/*    font-size: 2rem;*/
+   
+}
+.persontext{
+    font-family: 'Akzidenz-Grotesk Pro Regular';
+    font-size: 0.9rem;
+    line-height: 1.72;
+    padding-top: 2rem;
+    margin-bottom: 0;
+}
+
+@media screen and ( max-width: 991px ) {
+  .content-main { width: 100%; }
+  .content-sub { width: 100%; }
+    .tab-container {
+        min-height: 240px;
+    
+
+    }
+    #spysok1 {
+        margin-bottom: 2em;
+    }
+    
+}
