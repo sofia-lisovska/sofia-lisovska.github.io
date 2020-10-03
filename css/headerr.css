@@ -9,11 +9,11 @@
 }
 
 @font-face {
-    font-family: 'Akzidenz-Grotesk Pro Light';
-    src: url('../fonts/AkzidenzGroteskPro-Light.eot');
-    src: url('../fonts//AkzidenzGroteskPro-Light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/AkzidenzGroteskPro-Light.woff') format('woff'),
-        url('../fonts/AkzidenzGroteskPro-Light.ttf') format('truetype');
+    font-family: 'AkzidenzGroteskPro-LightEx';
+    src: url('../fonts/AkzidenzGroteskPro-LightEx.eot');
+    src: url('../fonts//AkzidenzGroteskPro-LightEx.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AkzidenzGroteskPro-LightEx.woff') format('woff'),
+        url('../fonts/AkzidenzGroteskPro-LightEx.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -100,7 +100,7 @@
 }
 
 .TU {
-    font-family: 'Akzidenz-Grotesk Pro LightEx';
+    font-family: 'AkzidenzGroteskPro-LightEx';
     line-height: 2.5rem;
     font-size: 0.7rem;
     letter-spacing: 0.1rem;
